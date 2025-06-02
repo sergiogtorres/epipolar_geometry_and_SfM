@@ -117,7 +117,7 @@ def plot_epipolar_lines_one_view(points1, points2, im, F):
         plt.plot(xs, ys, 'r')
     for i in range(points1.shape[0]):
         x, y, _ = points1[i]
-        plt.plot(x, y, '*b')
+        plt.plot(x, y, 'Pg')
     plt.axis([0, W, H, 0])
 def plot_epipolar_lines_two_views(points1, points2, im1, im2, F):
     """
